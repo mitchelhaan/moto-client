@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "moto-client"
+version = "0.1.0"
+description = "Web client for Motorola Surfboard modems"
+authors = ["Mitchel Haan"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.22"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
